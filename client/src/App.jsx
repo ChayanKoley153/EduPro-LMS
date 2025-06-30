@@ -1,9 +1,12 @@
-import Login from "./pages/Login";
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import { Button } from './components/ui/button'
 
 function App() {
   return (
     <main>
-      <Login/>
+      <Navbar/>
+      <Hero/>
     </main>
   )
 }
