@@ -10,7 +10,7 @@ const Hero = () => {
                 {/* text section  */}
                 <div className='space-y-7 px-4 md:px-0'>
                     <h1 className='text-4xl mt-10 md:mt-0 md:text-6xl font-extrabold text-gray-200'>Explore Our <span className='text-blue-500'>1000+</span>
-                        <br />coding courses for all
+                        <br />coding courses 
                     </h1>
                     <p className='text-gray-300 text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis modi ab vel hic vero dolores eaque recusandae, at iure. Totam!</p>
                     <div className='inline-flex relative'>
@@ -23,7 +23,7 @@ const Hero = () => {
                     <img
                         src={HeroImg}
                         alt="Hero"
-                        className="w-full py-5 max-w-[850px] md:h-[600px] shadow-blue-500 drop-shadow-lg"
+                        className="w-full max-w-[900px] md:h-[600px] shadow-blue-500 drop-shadow-lg"
                     />
 
                     <div className="bg-slate-200 hidden md:flex gap-3 items-center rounded-md absolute top-[35%] right-0
